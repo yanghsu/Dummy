@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ADCC;
 				TargetAttributes = {
+					29059AB01AF7C3D7003048CD = {
+						DevelopmentTeam = AH2Y4X9GZW;
+					};
 					29059AD11AF7C3D7003048CD = {
 						TestTargetID = 29059AB01AF7C3D7003048CD;
 					};
@@ -378,10 +381,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dummy/Dummy-Prefix.pch";
 				INFOPLIST_FILE = "Dummy/Dummy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c7d1e475-3e03-4428-8a8b-c45252920839";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +396,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dummy/Dummy-Prefix.pch";
 				INFOPLIST_FILE = "Dummy/Dummy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c7d1e475-3e03-4428-8a8b-c45252920839";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
