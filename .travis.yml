@@ -1,3 +1,3 @@
 language: objective-c
 xcode_project: Dummy.xcodeproj # path to your xcodeproj folder
-xcode_scheme: DummyTests
+xcode_scheme: Dummy
